@@ -1,0 +1,48 @@
+.section { background-color: whitesmoke;
+            max-width: 100%;
+            padding-left: auto;
+        padding-right: auto;
+    line-height: 1.8;}
+.card1 { background-color: maroon;
+        padding: 50%;
+        padding-right: auto;
+        padding-left: auto;
+            
+        
+            }
+            .card2 { background-color: maroon;
+                padding:50%;
+            padding-left: auto;
+            padding-right: auto;
+        }
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  div.relative { position: relative;
+    color: maroon;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 20px;
+      width: 500px;
+    height: 300px;
+  border: 2px solid white;}
+   div.absolute { position: absolute;
+    background-color: whitesmoke;
+          top: 80px;
+        right: 50px;
+      width: 300px;
+    height: justify;
+  border: 2px solid whitesmoke;}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> body { background-color: wheat;}
+            * { box-sizing: border-box;}
+                .img-container {
+                        float: left;
+                        width: 33.33%;
+                        padding: 5px;
+                }
+                .clearfix::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                }
+        </style>
+        <title> Image side by side</title>
+    </head>
+    <body>
+        <h1>Introduction</h1>
+    <div class="clearfix"     >
+        <div class="img-container">
+            <img src="E:\Users\HP\OneDrive\Desktop\CSS Projects\assests\Images\detailed-travel-logo_23-2148616611.jpg" alt="image1" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="E:\Users\HP\OneDrive\Desktop\CSS Projects\assests\Images\IMG_20220716_165945.jpg" alt="image2" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="E:\Users\HP\OneDrive\Desktop\CSS Projects\assests\Images\IMG_20220716_170031.jpg" alt="image3" style="width:100%">
+        </div>
+    </div>
+        
+    </body>
+</html>

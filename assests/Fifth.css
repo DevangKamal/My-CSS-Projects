@@ -1,0 +1,86 @@
+* {
+    box-sizing:border-box ;
+}
+body {
+        
+    margin: 0;
+}
+h2 { color:blue;
+        font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;}
+    p {
+        font-size: 20px;
+        line-height: 1.7;
+        font-family: monospace;
+        color: navy;
+    }
+ /* style the header */
+ .header {
+    background-color: whitesmoke;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+
+    
+ }
+   /* style in the top navigation bar */
+   .topnav {
+    overflow: hidden;
+    background-color: maroon;
+   }
+    
+   /* style in the navigationbar links. */
+.topnav a {
+    float: left;
+    display: block;
+    color:white ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    /* change color on a hover. */
+    .topnav a:hover {
+        background-color: whitesmoke;
+        color:black;
+    }
+   
+/* .   Create three unequal columns which place to next each other. */
+    .column {
+        float: left;
+        padding: 10px;
+    }
+        /* Left and Right column */
+    .column.side {
+        background-color: wheat;
+        border-radius: 25px;
+        width: 25%;
+    }
+     /* Middle column  */
+     .column.middle {
+        background-color: whitesmoke;
+        border-radius: 25px;
+        width: 50%;
+     }
+     /* Clear floats after the colimns */
+     .row:after {
+        content: "";
+        display: table;
+        clear: both;
+     }
+        /* REsponsive Layouts - makes the three columns stack on each other instaed of next to each other. */
+        @media screen and(max-width:600px) {
+            .column.side , .column.middle {
+                width: 100%;
+            }
+            
+        }
+            /* Style in footer */
+            .footer {
+                padding: 40px;
+                text-align: center;
+                color: maroon;
+                font-size: 30px;
+                background-color: whitesmoke;
+            }
